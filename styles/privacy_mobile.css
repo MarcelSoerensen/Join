@@ -9,11 +9,22 @@
   }
 
   .right-side-content {
-    width: 100vw;
+    width: 100%;
+    margin: 0;
     padding: 64px 64px 80px 64px !important;
   }
 
   .right-side-content p a {
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .right-side-content ul {
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .right-side-content li {
     word-wrap: break-word;
     overflow-wrap: anywhere;
   }
@@ -26,7 +37,20 @@
 
 @media(max-width:620px) {
   .right-side-content {
-    width: 100vw;
+    width: 100%;
+    margin: 0;
     padding: 40px 24px 80px 24px !important;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .right-side-content,
+  .right-side-content * {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
   }
 }
