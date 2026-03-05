@@ -3,6 +3,11 @@
         font-size: 32px !important;
     }
 
+    .right-side-content {
+        width: 100vw;
+        padding: 64px 64px 80px 64px !important;
+    }
+
     footer {
         margin-bottom: 40px !important;
     }
@@ -10,6 +15,11 @@
 }
 
 @media(max-width:650px) {
+    .right-side-content {
+        width: 100vw;
+        padding: 40px 24px 80px 24px !important;
+    }
+
     footer {
         margin-bottom: 56px !important;
     }

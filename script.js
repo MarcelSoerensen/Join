@@ -23,10 +23,9 @@ function isExcludedPage() {
     "log_in.html",
     "sign_up.html",
     "forgot_password.html",
+    "help_page.html",
     "privacy.html",
-    "legal.html",
-    "privacy_policy_logged_out.html",
-    "legal_notice_logged_out.html"
+    "legal.html"
   ];
   const currentPage = window.location.pathname
     .split("/")

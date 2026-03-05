@@ -62,7 +62,9 @@ footer a:hover {
 .right-side-content {
   margin-top: 96px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1670px; /* 1920px Gesamtbreite minus ~250px Sidebar */
+  margin-left: auto;
+  margin-right: auto;
   padding: 64px 96px 64px 340px;
   box-sizing: border-box;
 }
@@ -72,18 +74,21 @@ footer a:hover {
 }
 
 .right-side-content a {
-  color: rgba(42, 54, 71, 1);
+  color: rgba(85, 169, 221, 1);
   font-weight: 600;
+}
+
+.right-side-content a:hover {
+  color: rgba(0,0,0, 0.6);
 }
 
 .d-none {
   display: none !important;
 }
 
-/* Füge dies zu style.css hinzu */
 #add_task_frame {
   max-width: 1440px;
-  margin: 0 auto; /* Zentrieren */
+  margin: 0 auto;
   width: 100%;
 }
 
